@@ -1,3 +1,3 @@
 # ThinkBoard
 
-Notes creation App. 
+AI Notes creation App. 
