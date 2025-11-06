@@ -2,11 +2,13 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import CreatePage from "./pages/CreatePage.jsx";
 import NoteDetailPage from "./pages/NoteDetailPage.jsx";
+import Navbar from "./components/NavBar.jsx";
 import { toast } from "react-hot-toast";
 
 const App = () => {
   return (
     <div data-theme="retro">
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
