@@ -1,7 +1,14 @@
+import { useState } from "react";
+import Navbar from "../components/NavBar.jsx";
+import RateLimitedUI from "../components/RateLimitedUI.jsx";
+
 const HomePage = () => {
+  const [isRateLimited, setRateLimited] = useState(false);
+
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className= "min-h-screen">
+      <Navbar />
+      {isRateLimited && <RateLimitedUI />}
     </div>
   );
 };
