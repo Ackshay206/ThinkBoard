@@ -19,7 +19,7 @@ const NoteCard = ({ note }) => {
             {new Date(note.createdAt).toLocaleDateString()}
           </span>
         <div className="flex items-center gap-1">
-             <PenSquareIcon className="size-4" />
+             <PenSquareIcon className="size-4"/>
              <button className= "btn btn-ghost btn-xs text-error">
                 <Trash2Icon className="size-4"/>
              </button>

@@ -17,4 +17,5 @@ const NotesNotFound = () => {
     </div>
   );
 };
+
 export default NotesNotFound;
